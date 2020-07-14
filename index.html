@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Title of Page </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+<body>
+    <header>
+        <div class="title">
+          <h1>Acme Layout</h1>
+        </div>
+        <nav>
+          <div class="nav-item">
+            <a href="#">Users</a>
+          </div>
+          <div class="nav-item">
+            <a href="#">Departments</a>
+          </div>
+          <div class="nav-item">
+            <a href="#">Contact</a>
+          </div>
+        </nav>
+      </header>
+
+    <section id = "users">
+        <div id = "title">
+            <h1>Users</h1>
+        </div>
+    </section>
+
+    <section id = "create-user">
+        <div class = "user-form">
+            <h1>Create A User</h1>
+            <form>
+                <div class = "first-name-section">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" value = "John">
+                </div>
+                <br>
+                <div class = "last-name-section">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" value = "Doe">
+                </div>
+                <br>
+                <div class = "department-section">
+                <label id = "dropdown">Department:</label>
+                    <select id = "myList">
+                    <option value = "1">one</option>
+                    <option value = "2">two</option>
+                    <option value = "3">three</option>
+                    <option value = "4">four</option>
+                    </select>
+                </div>
+                <br>
+                <div class = "button-section">
+                    <input type="reset" value="Clear"></input>
+                    <input type="submit"></input>
+                </div>
+                <br>
+            </form>
+        </div>
+    </section>
+
+    <section id = "cards">
+        <div>
+            <div class="card">
+                <h3 class="user-name">User A</h3>
+                <p class="user-text">Some text goes here</p>
+            </div>
+            <div class="card">
+                <h3 class="user-name">User A</h3>
+                <p class="user-text">Some text goes here. Some text goes here. Some text goes here. Some text goes here. Some text goes here. Some text goes here.</p>
+            </div>
+            <div class="card">
+                <h3 class="user-name">User A</h3>
+                <p class="user-text">Some text goes here</p>
+            </div>
+            <div class="card">
+                <h3 class="user-name">User A</h3>
+                <p class="user-text">Some text goes here</p>
+            </div>
+            <div class="card">
+                <h3 class="user-name">User A</h3>
+                <p class="user-text">Some text goes here</p>
+            </div>
+            <div class="card">
+                <h3 class="user-name">User A</h3>
+                <p class="user-text">Some text goes here</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
